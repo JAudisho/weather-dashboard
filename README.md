@@ -1,8 +1,8 @@
-#Weather Dashboard Project
-#Description
+# Weather Dashboard Project
+## Description
 This is a simple weather dashboard app that fetches real-time weather data for any city using the OpenWeatherMap API. It shows the city name, temperature, weather description, and even a cool little icon that represents the current weather (like a sun or cloud). I added some nice animations and a professional design to make it look really good.
 
-#Features
+## Features
 - Search for any city to see its current weather.
 - Displays:
   - City name
@@ -13,7 +13,7 @@ This is a simple weather dashboard app that fetches real-time weather data for a
 - Responsive design, so it looks good on desktop or mobile.
 - Error handling if the city name isn’t found.
 
-#How I Set It Up
+## How I Set It Up
 I worked on this project using Visual Studio Code (VS Code). Here’s exactly what I did:
 
 1. Installed Node.js: I downloaded and installed Node.js to use npm and manage dependencies.
@@ -36,17 +36,17 @@ Error Handling: I added a fallback in case someone enters a city name that isn�
 
 6. Added Animations: For the weather icons, I added hover effects using CSS. When you hover over the icon, it grows and casts a shadow.
 
-#How to Run the Project
+## How to Run the Project
 1. Clone this repository: git clone https://github.com/JAudisho/weather-dashboard.git
 2. Open the folder in VS Code.
 3. Open index.html with Live Server (right-click on the file and select "Open with Live Server").
 4. Enter a city name in the search bar and click "Search" to see the weather.
    
-#Challenges
+## Challenges
 - Setting up the API was a bit tricky because I had to make sure my API key worked properly and deal with "city not found" errors.
 - Figuring out how to make the design look nice without spending too much time tweaking every little thing.
 
-#Future Plans
+## Future Plans
 I want to:
 - Add a 5-day weather forecast feature.
 - Use geolocation to automatically show the weather for the user’s current location.
